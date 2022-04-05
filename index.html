@@ -26,6 +26,32 @@
         background-blend-mode: darken;
       }
     </style>
+    <!-- CSS do Video Youtube -->
+    html, body {
+	width: 100%;
+	height: 100%;
+	margin: 0;
+	padding: 0;
+}
+iframe {
+	width: auto;
+	height: auto;
+	min-width: 100%;
+	min-height: 100%;
+	display: block;
+}
+@media (min-aspect-ratio: 16/9) {
+  iframe {
+    width: 100%;
+	height: auto;
+  }
+}
+@media (max-aspect-ratio: 16/9) {
+  iframe {
+    width: auto;
+	height: 100%;
+  }
+}
 
   </head>
   <body>
@@ -38,8 +64,9 @@
             <h3 class="my-4">Conheça a <b>FERRAMENTA</b> que pode te ajudar a fazer um $$$ Extra <b>FORMATANDO PCs e Notebooks com apenas 1 COMANDO</b>, mesmo que você esteja iniciando na Informática.</h3>
 
             <!-- VSL -->
-            <iframe width="560" height="315" src="https://www.youtube.com/embed/uylWnp9FdcU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-
+            <iframe src="https://www.youtube.com/embed/uylWnp9FdcU" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            
+            
             <!-- Botão -->
             <div id="cta1" class="mt-4 d-none">
               <a href="https://pay.kiwify.com.br/rxKVknA?src=GutHubCamp" class="a-btn" style="text-decoration: none;">
