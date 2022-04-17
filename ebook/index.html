@@ -21,7 +21,7 @@
     <link id="theme-style" rel="stylesheet" href="assets/css/theme.css">
 
 <!-- Código Mautic Form -->			
-	<script type="text/javascript">
+<script type="text/javascript">
     /** This section is only needed once per page if manually copying **/
     if (typeof MauticSDKLoaded == 'undefined') {
         var MauticSDKLoaded = true;
@@ -40,8 +40,8 @@
     }else if (typeof MauticSDK != 'undefined') {
         MauticSDK.onLoad();
     }
-	</script>
-	<!-- Fim do Código Mautic Form -->
+</script>
+<!-- Fim do Código Mautic Form -->
 
 </head> 
 
@@ -173,8 +173,8 @@
     .mauticform-radiogrp-row {}
     .mauticform-radiogrp-label { font-weight: normal; }
     .mauticform-radiogrp-radio {}
-    .mauticform-button-wrapper .mauticform-button.btn-default, .mauticform-pagebreak-wrapper .mauticform-pagebreak.btn-default { color: #ffffff;background-color: #113A2E;border-color: #dddddd;}
-    .mauticform-button-wrapper .mauticform-button, .mauticform-pagebreak-wrapper .mauticform-pagebreak { display: inline-block;margin-bottom: 0;font-weight: 600;text-align: center;vertical-align: middle;cursor: pointer;background-image: none;border: 1px solid transparent;white-space: nowrap;padding: 8px 12px;font-size: 19px;line-height: 1.3856;border-radius: 3px;-webkit-user-select: none;-moz-user-select: none;-ms-user-select: none;user-select: none;}
+    .mauticform-button-wrapper .mauticform-button.btn-default, .mauticform-pagebreak-wrapper .mauticform-pagebreak.btn-default { color: #5d6c7c;background-color: #ffffff;border-color: #dddddd;}
+    .mauticform-button-wrapper .mauticform-button, .mauticform-pagebreak-wrapper .mauticform-pagebreak { display: inline-block;margin-bottom: 0;font-weight: 600;text-align: center;vertical-align: middle;cursor: pointer;background-image: none;border: 1px solid transparent;white-space: nowrap;padding: 6px 12px;font-size: 13px;line-height: 1.3856;border-radius: 3px;-webkit-user-select: none;-moz-user-select: none;-ms-user-select: none;user-select: none;}
     .mauticform-button-wrapper .mauticform-button.btn-default[disabled], .mauticform-pagebreak-wrapper .mauticform-pagebreak.btn-default[disabled] { background-color: #ffffff; border-color: #dddddd; opacity: 0.75; cursor: not-allowed; }
     .mauticform-pagebreak-wrapper .mauticform-button-wrapper {  display: inline; }
 </style><style type="text/css" scoped>
@@ -201,8 +201,14 @@
                 <span class="mauticform-errormsg" style="display: none;">Isso é obrigatório.</span>
             </div>
 
-            <div id="mauticform_leadsebookquandoformataropc_submit" class="mauticform-row mauticform-button-wrapper mauticform-field-3">
-                <button type="submit" name="mauticform[submit]" id="mauticform_input_leadsebookquandoformataropc_submit" value="" class="mauticform-button btn btn-default">QUERO O MEU E-BOOK!</button>
+            <div id="mauticform_leadsebookquandoformataropc_insira_com_ddd" data-validate="insira_com_ddd" data-validation-type="tel" class="mauticform-row mauticform-tel mauticform-field-3 mauticform-required">
+                <label id="mauticform_label_leadsebookquandoformataropc_insira_com_ddd" for="mauticform_input_leadsebookquandoformataropc_insira_com_ddd" class="mauticform-label">Whatsapp (DDD)</label>
+                <input id="mauticform_input_leadsebookquandoformataropc_insira_com_ddd" name="mauticform[insira_com_ddd]" value="" class="mauticform-input" type="tel">
+                <span class="mauticform-errormsg" style="display: none;">Isso é obrigatório.</span>
+            </div>
+
+            <div id="mauticform_leadsebookquandoformataropc_submit" class="mauticform-row mauticform-button-wrapper mauticform-field-4">
+                <button type="submit" name="mauticform[submit]" id="mauticform_input_leadsebookquandoformataropc_submit" value="" class="mauticform-button btn btn-default">Enviar</button>
             </div>
             </div>
         </div>
@@ -360,7 +366,8 @@
 	<section id="form2" class="benefits-section theme-bg-light-gradient py-5">
 			    <h2 class="form-heading text-center">Baixe agora o seu e-book</h2>
 			    <div class="form-intro text-center mb-3">Você receberá gratuitamente o E-book após deixar os seus dados abaixo <br>Preencha corretamente os dados, caso contrário você não receberá o arquivo.</div>
-			    <!-- Formulario do Mautic -->
+
+<!-- Formulario do Mautic -->
 <style type="text/css" scoped>
     .mauticform_wrapper { max-width: 600px; margin: 10px auto; }
     .mauticform-innerform {}
@@ -381,8 +388,8 @@
     .mauticform-radiogrp-row {}
     .mauticform-radiogrp-label { font-weight: normal; }
     .mauticform-radiogrp-radio {}
-    .mauticform-button-wrapper .mauticform-button.btn-default, .mauticform-pagebreak-wrapper .mauticform-pagebreak.btn-default { color: #ffffff;background-color: #113A2E;border-color: #dddddd;}
-    .mauticform-button-wrapper .mauticform-button, .mauticform-pagebreak-wrapper .mauticform-pagebreak { display: inline-block;margin-bottom: 0;font-weight: 600;text-align: center;vertical-align: middle;cursor: pointer;background-image: none;border: 1px solid transparent;white-space: nowrap;padding: 8px 12px;font-size: 19px;line-height: 1.3856;border-radius: 3px;-webkit-user-select: none;-moz-user-select: none;-ms-user-select: none;user-select: none;}
+    .mauticform-button-wrapper .mauticform-button.btn-default, .mauticform-pagebreak-wrapper .mauticform-pagebreak.btn-default { color: #5d6c7c;background-color: #ffffff;border-color: #dddddd;}
+    .mauticform-button-wrapper .mauticform-button, .mauticform-pagebreak-wrapper .mauticform-pagebreak { display: inline-block;margin-bottom: 0;font-weight: 600;text-align: center;vertical-align: middle;cursor: pointer;background-image: none;border: 1px solid transparent;white-space: nowrap;padding: 6px 12px;font-size: 13px;line-height: 1.3856;border-radius: 3px;-webkit-user-select: none;-moz-user-select: none;-ms-user-select: none;user-select: none;}
     .mauticform-button-wrapper .mauticform-button.btn-default[disabled], .mauticform-pagebreak-wrapper .mauticform-pagebreak.btn-default[disabled] { background-color: #ffffff; border-color: #dddddd; opacity: 0.75; cursor: not-allowed; }
     .mauticform-pagebreak-wrapper .mauticform-button-wrapper {  display: inline; }
 </style><style type="text/css" scoped>
@@ -409,8 +416,14 @@
                 <span class="mauticform-errormsg" style="display: none;">Isso é obrigatório.</span>
             </div>
 
-            <div id="mauticform_leadsebookquandoformataropc_submit" class="mauticform-row mauticform-button-wrapper mauticform-field-3">
-                <button type="submit" name="mauticform[submit]" id="mauticform_input_leadsebookquandoformataropc_submit" value="" class="mauticform-button btn btn-default">QUERO O MEU E-BOOK!</button>
+            <div id="mauticform_leadsebookquandoformataropc_insira_com_ddd" data-validate="insira_com_ddd" data-validation-type="tel" class="mauticform-row mauticform-tel mauticform-field-3 mauticform-required">
+                <label id="mauticform_label_leadsebookquandoformataropc_insira_com_ddd" for="mauticform_input_leadsebookquandoformataropc_insira_com_ddd" class="mauticform-label">Whatsapp (DDD)</label>
+                <input id="mauticform_input_leadsebookquandoformataropc_insira_com_ddd" name="mauticform[insira_com_ddd]" value="" class="mauticform-input" type="tel">
+                <span class="mauticform-errormsg" style="display: none;">Isso é obrigatório.</span>
+            </div>
+
+            <div id="mauticform_leadsebookquandoformataropc_submit" class="mauticform-row mauticform-button-wrapper mauticform-field-4">
+                <button type="submit" name="mauticform[submit]" id="mauticform_input_leadsebookquandoformataropc_submit" value="" class="mauticform-button btn btn-default">Enviar</button>
             </div>
             </div>
         </div>
