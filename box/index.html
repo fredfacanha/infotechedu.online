@@ -1383,23 +1383,23 @@ var elementorFrontendConfig = {"environmentMode":{"edit":false,"wpPreview":false
 
 
 
-			<script>
-    (function() {
-         const utmParamQueryString = new URLSearchParams(window.location.search);
-         if (utmParamQueryString.toString()) {
-              var navLinks = document.querySelectorAll('a');
-              navLinks.forEach(function(item) {
-                   if (item.href.indexOf('pay.kiwify.com.br') !== -1) {
-                        if (item.href.indexOf('?') === -1) {
-                             item.href += '?' + utmParamQueryString.toString();
-                        } else {
-                             item.href += '&' + utmParamQueryString.toString();
-                        }
-                   }
-              });
-         }
-    })();
-    </script>
+<script>
+(function() {
+     const utmParamQueryString = new URLSearchParams(window.location.search);
+     if (utmParamQueryString.toString()) {
+          var navLinks = document.querySelectorAll('a');
+          navLinks.forEach(function(item) {
+               if (item.href.indexOf('checkout.fd-class.com') !== -1) {
+                    if (item.href.indexOf('?') === -1) {
+                         item.href += '?' + utmParamQueryString.toString();
+                    } else {
+                         item.href += '&' + utmParamQueryString.toString();
+                    }
+               }
+          });
+     }
+})();
+</script>
 
 				</body>
 </html><!-- WP Fastest Cache file was created in 0.51598000526428 seconds, on 04-12-22 15:57:50 --><!-- need to refresh to see cached version -->
